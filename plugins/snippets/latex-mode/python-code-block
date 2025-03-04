@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Python Code block
+# key: pcode
+# --
+\begin{MyPython}{\footnotesize}
+$1
+\end{MyPython}

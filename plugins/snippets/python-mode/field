@@ -1,0 +1,5 @@
+# -*- mode: python -*-
+# name: Pydantic Field
+# key: field
+# --
+$1: $2 = Field(default=$3)

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: (Latex Beamer Frame)
+# key: bframe
+# --
+	\begin{frame}[fragile]
+		\frametitle{$1}
+		\textbf{}
+	\end{frame}

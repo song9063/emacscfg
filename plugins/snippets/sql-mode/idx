@@ -1,0 +1,6 @@
+# -*- mode: sql -*-
+# name: Index
+# key: idx
+# expand-env: ((yas-indent-line 'fixed))
+# --
+INDEX \`$1\` (\`$2\`),

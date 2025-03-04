@@ -1,0 +1,6 @@
+# -*- mode: sql -*-
+# name: Tiny INT
+# key: tint
+# expand-env: ((yas-indent-line 'fixed))
+# --
+\`$1\` TINYINT(1) NOT NULL DEFAULT 0,

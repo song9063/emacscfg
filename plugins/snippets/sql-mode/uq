@@ -1,0 +1,6 @@
+# -*- mode: sql -*-
+# name: Unique
+# key: uq
+# expand-env: ((yas-indent-line 'fixed))
+# --
+UNIQUE INDEX \`UQ_$1\` (\`$2\` ASC),

@@ -1,0 +1,6 @@
+# -*- mode: sql -*-
+# name: Forign Key
+# key: fk
+# expand-env: ((yas-indent-line 'fixed))
+# --
+FOREIGN KEY (\`$1\`) REFERENCES \`$2\` (\`$3\`),

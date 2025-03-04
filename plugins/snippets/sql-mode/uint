@@ -1,0 +1,6 @@
+# -*- mode: sql -*-
+# name: Unsigned INT
+# key: uint
+# expand-env: ((yas-indent-line 'fixed))
+# --
+\`$1\` INT(11) UNSIGNED NOT NULL DEFAULT 0,

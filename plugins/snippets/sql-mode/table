@@ -1,0 +1,20 @@
+# -*- mode: sql -*-
+# name: Table
+# key: table
+# expand-env: ((yas-indent-line 'fixed))
+# --
+
+CREATE TABLE IF NOT EXISTS $1(
+       \`id\` INT(11) UNSIGNED NOT NULL  AUTO_INCREMENT,
+       \`created_at\` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+       \`longstr\` VARCHAR(322) NOT NULL,
+       \`booleanv\` TINYINT(1) NOT NULL DEFAULT 0,
+
+       $2
+
+       PRIMARY KEY(\`id\`),
+       INDEX \`idx_$2_cat\` (\`created_at\`),
+
+       UNIQUE INDEX \`UQ_\` (\`colname\` ASC),
+       INDEX \`idx_\` (\`colname\`),
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_unicode_ci;
